@@ -10,17 +10,6 @@ void FillArray(int nums[], const int sizeOfNums)
 	}
 }
 
-/*void OutPutArray(int nums[], const int sizeOfNums)
-{
-	cout << "[";
-
-	for (int index = 0; index < sizeOfNums; index++)
-	{
-		cout << nums[index] << ", ";
-	}
-	cout << "\b\b]" << endl;
-}*/
-
 void binarySearch(int nums[], const int sizeOfNums, int item)
 {
 	int counter = 0, guess, mid, low = 0, high = sizeOfNums - 1;
@@ -55,8 +44,6 @@ int main()
 	int nums[SIZEofArray];
 
 	FillArray(nums, SIZEofArray);
-
-	//OutPutArray(nums, SIZEofArray);
 
 	int requiredNumber;
 
